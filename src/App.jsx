@@ -13,6 +13,9 @@ export function App() {
         <main>
           <Post author="Paulo Henrique" content="Um conteúdo muito legal" />
           <Post author="Paulo Henrique" content="Um conteúdo muito legal" />
+          <Post author="Paulo Henrique" content="Um conteúdo muito legal" />
+          <Post author="Paulo Henrique" content="Um conteúdo muito legal" />
+          <Post author="Paulo Henrique" content="Um conteúdo muito legal" />
         </main>
       </div>
     </>
