@@ -7,13 +7,13 @@ export function Comment({ content }) {
     <div className={styles.comment}>
       <Avatar
         hasBorder={false}
-        src="https://avatars.githubusercontent.com/u/67799522?v=4"
+        src="https://avatars.githubusercontent.com/u/6643122"
       />
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Paulo Henrique</strong>
+              <strong>Mayk Brito</strong>
               <time title="01 de maio às 19:05h" dateTime="2022-05-01 19:05:00">
                 Cerca de 1h atrás
               </time>
