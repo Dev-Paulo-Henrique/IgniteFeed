@@ -30,7 +30,7 @@ const posts = [
       avatarUrl: "https://avatars.githubusercontent.com/u/6643122",
       name: "Mayk Brito",
       role: "Mobile Developer",
-    },
+    }, 
     content: [
       { type: "paragraph", content: "Fala galeraa 👋" },
       {
