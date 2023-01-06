@@ -20,7 +20,7 @@ const posts = [
           "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
       },
       { type: "link", content: "jane.design/doctorcare" },
-      { type: "hashtag", content: "#novoprojeto"},
+      { type: "hashtag", content: "#novoprojeto" },
     ],
     publishedAt: new Date("2023-01-06 12:00:00"),
   },
@@ -39,7 +39,7 @@ const posts = [
           "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
       },
       { type: "link", content: "jane.design/doctorcare" },
-      { type: "hashtag", content: "#rocketseat"},
+      { type: "hashtag", content: "#rocketseat" },
     ],
     publishedAt: new Date("2022-05-01 19:05:00"),
   },
@@ -53,7 +53,13 @@ export function App() {
         <Sidebar />
         <main>
           {posts.map((post) => {
-            return <Post author={post.author} content={post.content} publishedAt={post.publishedAt}/>;
+            return (
+              <Post
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+              />
+            );
           })}
         </main>
       </div>
